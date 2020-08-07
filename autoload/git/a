@@ -1,0 +1,4 @@
+
+  undo = "!f() { git dry-run; git restore; }; f"
+  uadd = rm --cached
+  down = "!f() { git checkout HEAD~${1-1}; }; f"
